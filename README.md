@@ -1,3 +1,0 @@
-# segwebsiteproject.github.io
-
-Hello 
