@@ -4,6 +4,7 @@ https://github.com/segwebsitproject
 https://segwebsiteproject.github.io
 
 
+
 GitHub Accounts for each team member: 
 
 Nicolas Maalouly : nsoccer 
@@ -17,6 +18,7 @@ Henry Saber : HenrySaber
 Jordy Himbarwa : jordyHimbarwa
 
 Osman Sharif : oshar087
+
 
 
 GitHub Pages Link:
