@@ -13,4 +13,3 @@ Osman Sharif : oshar087
 
 GitHub Pages Link:
 https://segwebsiteproject.github.io/README.txt
-#
