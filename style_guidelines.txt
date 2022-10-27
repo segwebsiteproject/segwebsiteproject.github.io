@@ -1,0 +1,16 @@
+This is our style guidelines txt. We will specify our different ideas, colour schemes and general design for our website.
+Here we will go into details about our typography and the way we decided to make our website captivating.
+
+For the colour scheme of our website we decided to take influence from the university of Ottawa website
+Our colour scheme is :
+    - Maroon
+    - Black
+    - White
+    - Grey
+Using these colours to contrast each other and our background images we can create a more eye pleasing experience for people that visit the website.
+
+Since the typography of the website is the main portion of the desgign we decided to take simpler yet more captivating aproach to this.
+We used different fonts such as Arial, Times New Roman etc to keep the text easily readable yet still very profesionnal and clean.
+We varied the font sizes, the italiques and the bold texts to show a difference in importance and to captivate the readers to certain points of our website.
+To render our layout more aesthetically pleasing we decided to test different colours for the backgroun of the interface until we decided on one. 
+We will look to make further adjustements and changes to the typography to make our website more unique and less generic. This will help captivate the readers more and distinguish us from the others.
