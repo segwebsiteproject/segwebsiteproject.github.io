@@ -21,7 +21,7 @@
 }
 
 
-.body a {
+.body box1 {
 
   float: right;
 
@@ -38,7 +38,7 @@
 }
 
 
-.body a:hover {
+.body box1:hover {
 
     background-color: #ddd;
 
