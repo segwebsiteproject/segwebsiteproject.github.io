@@ -37,11 +37,10 @@
 
 }
 
+.body a:hover{
 
-.body a:hover {
+background-color: #8B0000;
 
-    background-color: #ddd;
-
-    color: black;
+color: beige;
 
 }
