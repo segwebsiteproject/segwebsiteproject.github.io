@@ -78,11 +78,16 @@
 
     <a href="home.html">Home</a>
   </div>
-  <div id="home">
-    <p>
-    <h1>This is our home page</h1>
-    </p>
+  <div><p><h1 id="home"></h1></p>
   </div>
-</body>
+  <div><button id="bhome">click here</button></div>
+  </body>
+
+  <script>
+      document.getElementById('bhome').addEventListener('click',function(){
+          document.getElementById("home").innerHTML='This is my home page😃'
+      })
+
+  </script>
 
 </html>

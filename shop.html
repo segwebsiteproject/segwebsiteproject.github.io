@@ -89,12 +89,17 @@
         <a href="home.html">Home</a>
 
     </div>
-    <div id="shop">
-        <p>
-        <h1>This is our shop page</h1>
-        </p>
+    <div><p><h1 id="shop"></h1></p>
     </div>
-</body>
+    <div><button id="bshop">click here</button></div>
+    </body>
+  
+    <script>
+        document.getElementById('bshop').addEventListener('click',function(){
+            document.getElementById("shop").innerHTML='This is my shop page😃'
+        })
+
+    </script>
 
 
 </html>

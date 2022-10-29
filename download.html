@@ -88,13 +88,17 @@
         <a href="home.html">Home</a>
 
     </div>
-    <div id="download">
-        <p>
-        <h1>This is our download page</h1>
-        </p>
+    <div><p><h1 id="download"></h1></p>
     </div>
-</body>
+    <div><button id="bdownload">click here</button></div>
+    </body>
+  
+    <script>
+        document.getElementById('bdownload').addEventListener('click',function(){
+            document.getElementById("download").innerHTML='This is my download page😃'
+        })
 
-</body>
+    </script>
+
 
 </html>

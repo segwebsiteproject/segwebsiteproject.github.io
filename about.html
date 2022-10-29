@@ -54,6 +54,10 @@
         color: black;
 
     }
+
+    #about {
+        text-align: center;
+    }
     </style>
 </head>
 </html>
@@ -83,10 +87,16 @@
         <a href="home.html">Home</a>
   
     </div>
-    <div id="about"><p><h1>This is our about page</h1></p>
+    <div ><p><h1 id="about"></h1></p>
     </div>
+    <div><button id="babout">click here</button></div>
     </body>
+    <script>
+        document.getElementById('babout').addEventListener('click',function(){
+            document.getElementById("about").innerHTML='This is my about page😃'
+        })
 
+    </script>
     </html>
 
 

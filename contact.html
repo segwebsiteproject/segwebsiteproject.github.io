@@ -53,6 +53,10 @@
         color: black;
 
     }
+
+    #contact {
+        text-align: center;
+    }
     </style>
 </head>
 </html>
@@ -82,11 +86,17 @@
         <a href="home.html">Home</a>
   
     </div>
-    <div id="contact"><p><h1>This is our contact page</h1></p>
+    <div><p><h1 id="contact"></h1></p>
     </div>
+    <div><button id="bcontact">click here</button></div>
     </body>
   
-  </body>
+    <script>
+        document.getElementById('bcontact').addEventListener('click',function(){
+            document.getElementById("contact").innerHTML='This is my contact page😃'
+        })
+
+    </script>
   </html>
 
 
