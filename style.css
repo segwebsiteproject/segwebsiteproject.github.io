@@ -54,10 +54,13 @@ color: beige;
 }
 
 /*---------------Shop---------------*/
+.Shop_body {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0, 0.3)), url(Pictures/ottawa\ backround.png) no-repeat center center;
+  height: 100vh;
+  background-size: cover;
 
-.Shop{
-  
 }
+
 
 .Shop_Header{
 text-align: center;
@@ -78,18 +81,18 @@ justify-content: center;
   border: none;
   color: black;
   padding: 15px 32px;
-  margin-bottom: 15px;
+  margin-bottom: 1;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   border-radius: 70px;
-  margin-left: 8vw;
+  margin-left: 9vw;
   margin-top: 3vw;
   
 }
 
 .Paid_Button:hover {
-  background-color:#8B0000;
+  background-color: darkgrey;
   transition: 0.7s;
 }
 
@@ -109,8 +112,8 @@ font-size: 20px;
 .Plan{
   background-color: #8B0000;
   width: 350px;
-  margin-right: 15px;
-  margin-left:15px;
+  margin-right: 35px;
+  margin-left:35px;
 }
 .Plan1Header{
   background-color: #8B0000;
@@ -132,4 +135,5 @@ font-size: 20px;
 }
 
 .PlanButton{
+  padding-bottom: 10px;
 }
