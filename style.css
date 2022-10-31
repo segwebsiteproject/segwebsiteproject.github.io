@@ -21,7 +21,7 @@
 }
 
 
-.body box1 {
+.body a {
 
   float: right;
 
@@ -31,17 +31,16 @@
 
   text-align: center;
 
-  padding: 22px 26px;
+  padding: 23px 26px;
 
   text-decoration: none;
 
 }
 
+.body a:hover{
 
-.body box1:hover {
+background-color: #8B0000;
 
-    background-color: #ddd;
-
-    color: black;
+color: beige;
 
 }
