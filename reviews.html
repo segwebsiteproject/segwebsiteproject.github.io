@@ -88,12 +88,20 @@
         <a href="home.html">Home</a>
 
     </div>
-    <div id="reviews">
+    <div>
         <p>
-        <h1>This is our reviews page</h1>
+        <h1 id="reviews"></h1>
         </p>
     </div>
+    <div><button id="boutonreviews">click ici </button></div>
 </body>
+
+<script>
+    document.getElementById('boutonreviews').addEventListener('click', function () {
+        document.getElementById("reviews").innerHTML = 'This is my reviews page😃'
+    })
+
+</script>
 
 
 </html>

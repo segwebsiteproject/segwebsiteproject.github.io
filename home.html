@@ -12,9 +12,9 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <style>
+  <style>
     .box {
-    box-sizing: border-box;
+      box-sizing: border-box;
     }
 
     .header {
@@ -78,11 +78,19 @@
 
     <a href="home.html">Home</a>
   </div>
-  <div id="home">
+  <div>
     <p>
-    <h1>This is our home page</h1>
+    <h1 id="home"></h1>
     </p>
   </div>
+  <div><button id="boutonhome">click ici </button></div>
 </body>
+
+<script>
+  document.getElementById('boutonhome').addEventListener('click', function () {
+    document.getElementById("home").innerHTML = 'This is my home page😃'
+  })
+
+</script>
 
 </html>
