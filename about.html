@@ -5,103 +5,71 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        .header {
-
-            background-color: #8B0000;
-
-            padding: 24px;
-
-            text-align: center;
-        }
-
-
-        .body {
-
-            overflow: hidden;
-
-            background-color: #333;
-        }
-
-
-        .body a {
-
-            float: right;
-
-            display: block;
-
-            color: #8B0000;
-
-            text-align: center;
-
-            padding: 22px 26px;
-
-            text-decoration: none;
-
-        }
-
-
-
-        .body a:hover {
-
-            background-color: #ddd;
-
-            color: black;
-
-        }
-
-        #about {
-            text-align: center;
-        }
-    </style>
+    <title>AboutPage</title>
+    
 </head>
 
-</html>
 
 <body>
 
-    <div class="header">
+    <div class="About"> 
+        <div id="About"></div>
+        <div class="navbar">
+  
+            <a href="reviews.html">Reviews</a>
+            <a href="download.html">Download</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="shop.html">Shop</a>
+            <a href="home.html">Home</a>
 
-        <h1>Welcome to DestinationU</h1>
+            <div class="Nav">
+                <h1>Welcome to DestinationU</h1>
+                <p>Your number one stop for all your campus transportation needs</p>   
+            </div>
+        </div>
 
-        <p>Your number one stop for all your campus transportation needs</p>
+        <div class="AboutHeader">
+            <h1>About Us</h1>
+        </div>
 
+        <div class="AboutHeaders">
+            <div class="PartHeader">
+                <h1>Partnerships</h1>
+            </div>
+            <div class="DescHeader">
+                <h1>Description</h1>
+            </div>
+            <div class="WhoHeader">
+                <h1>Who are we?</h1>
+            </div>
+        </div>
+        
+
+        <div class="Descriptions">
+            <div class="Partnerships"> 
+                <p>With many students being late for campus and in extreme circumstances being late for exams costing them their education, six university students came together to form the number one web-mapping platform for university students all across Canada. 
+                    With partnerships from the breathtaking sceneries found at campuses in British Columbia from the bustling metropolitan area found on the campuses of University of Toronto, we introduce Destination U. </p>
+            </div>
+            <div class="Description">
+                <p>DestinationU is a new application designed and geared to help navigate university students at all universities across Canada. 
+                    With an interactive map throughout the campus to help incoming and current students to not only find their lectures as well instruct them about approximate duration time it takes between buildings, facilities, open spaces, local shops and infrastructure. 
+                    The application will further notify the students when they need to start walking to their next class and best routes to take between classes. With the premium version, the application will unlock more features for the users. 
+                    They will have access to transit route tips from alumni from the university and a system to keep track of their schedule and time between classes. It will also come with an ad free feature for the premium users. </p>
+            </div>
+            <div class="Who?">
+                <p>We are a group of 6 univeristy who sturggled to make it to our classes on time.
+                    We decided to do something about it. This is why we created DestinationU.
+                    We wanted all university students accross Canada to have an easy access to a virtual campus map of their choosing.</p>
+            </div>
+        </div>
+
+        <div class="ButtonC">
+            <h2>If you would like to contact us for more infromation please click down below</h2>
+            <a href="contact.html">Contact</a>
+        </div>
     </div>
-
-    <div class="body">
-
-        <a href="reviews.html">Reviews</a>
-
-        <a href="download.html">Download</a>
-
-        <a href="contact.html">Contact</a>
-
-        <a href="about.html">About</a>
-
-        <a href="shop.html">Shop</a>
-
-        <a href="home.html">Home</a>
-
-    </div>
-    <div>
-        <p>
-        <h1 id="about"></h1>
-        </p>
-    </div>
-    <div><button id="boutonabout">click ici </button></div>
 </body>
-<script>
-    document.getElementById('boutonabout').addEventListener('click', function () {
-        document.getElementById("about").innerHTML = 'This is my about page😃'
-    })
-
-</script>
 
 </html>
