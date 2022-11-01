@@ -46,6 +46,36 @@ color: beige;
 
 }
 
+/*--------------About---------------*/
+.AboutHeader{
+margin:auto;
+text-align:center;
+background-color: maroon;
+width:200px;
+height:auto;
+box-align:center;
+}
+
+.PartHeader{
+float:left;
+text-align:center;
+background-color:grey;
+padding:10px;
+}
+
+.DescHeader{
+float:center;
+text-align:center;
+background-color:grey;
+padding:10px;
+}
+
+.WhoHeader{
+float:right;
+text-align:center;
+background-color:grey;
+}
+
 /*---------------Shop---------------*/
 
 .Shop_Header{
