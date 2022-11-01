@@ -132,8 +132,23 @@ font-size: 20px;
   color: white;
   text-align: center;
   margin-top: 2vw;
+  font-size: 10px;
 }
 
 .PlanButton{
   padding-bottom: 10px;
+} 
+ em{
+  font-family: 'Times New Roman', serif;
+  font-size: 40px;
+
+}
+.Plan:hover{
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+
+.Shop_Header:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
