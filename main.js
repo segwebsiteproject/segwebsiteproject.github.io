@@ -1,3 +1,7 @@
 function myFunction() {
-  document.getElementById("popup").innerHTML = "Hello World";
+  let image = document.getElementById("AppStore");
+ 
+  image.src ="Pictures/best.png"
+
+  document.getElementById("butid")
 }
