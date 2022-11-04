@@ -4,41 +4,29 @@
   }
   
  /* nav bar*/ 
-  .header {
-  
-      background-color: #8B0000;
-  
-      padding: 24px;
-  
-      text-align: center;
 
-    
-      
-  }
   
   
   .nav_bar {
   
     display: flex;
     justify-content: space-between;
+    
+    position: fixed;
 
+    top: 0px;
+    width: 100%;
     
     background-color: lightgray;
     
   }
 
-  .nav_bar .dy{
-    float: right;
-    display: block;
-  }
+
   
   
   .nav_bar a {
   
     float: right;
-
-  
- display: block;
   
     color: #8B0000;
   
@@ -60,17 +48,20 @@
   background-color: #8B0000;
   
   color: beige;
+  transition: 0.2s;
   
   }
-  .em{
-    color: black;
-  }
+
 
 /*section*/
 
 section{
-  margin: 0px;
-  background-color: rgb(231, 231, 231);
+margin-top: 70px;
+
+  background-image: url("Pictures/icon.webp");
+
+  background-attachment: fixed;
+
 }
 
 .section1{
@@ -79,6 +70,7 @@ section{
 
 
   border: solid rgb(173, 173, 173);
+  color: white;
 }
 
 
