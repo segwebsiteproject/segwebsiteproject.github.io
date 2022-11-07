@@ -1,13 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DestinationU</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+        body
+          {
+            background-image: url("Pictures/ILOB map-01.jpg");
+            background-repeat: no-repeat;
+            background-position-y: 110px;
+
+          }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+
+        button{
+          width: 200px;
+          height: 50px;
+          background-color: black;
+          color: rgb(255, 255, 255);
+        }
+
+        p{
+          font-weight: bold;
+          display: none;
+        }
+
+        #paragraphe{
+          margin: 0px 10px;
+          display: block;
+          align-items: center;
+        }
+
+
+
+    </style>
   </head>
   <body>
     <script src="main.js"></script>
+  <body style="background-size: cover; margin: 0px; ">
+    <div class="navbar">
+      <a href="reviews.html" target="_blank">Reviews</a>
+
+      <a href="download.html" target="_blank">Download</a>
+
+      <a href="contact.html" target="_blank">Contact</a>
+
+      <a href="about.html" target="_blank">About</a>
+
+      <a href="shop.html" target="_blank">Shop</a>
+
+      <a href="home.html" target="_blank">Home</a>
+    </div>
+    <div class="imgbox">
+<div class="bouton" style="display: flex; justify-content: space-around; margin-top: 100px; ">
+  <div style="width: 33%; " id="paragraphe"><button  onclick="myfunction1()">PARTERNSHIP</button><p id="first_text" style="background-color: aqua;">With many students being late for campus and in extreme circumstances being late for exams costing them their education, six university students came together to form the number one web-mapping platform for university students all across Canada. With partnerships from the breathtaking sceneries found at campuses in British Columbia from the bustling metropolitan area found on the campuses of University of Toronto, we introduce Destination U.</p></div>
+  <div style="width: 34%; " id="paragraphe"><button onclick="myfunction2()">DESCRIPTION</button><p id="second_text" style="background-color: coral;">DestinationU is a new application designed and geared to help navigate university students at all universities across Canada. With an interactive map throughout the campus to help incoming and current students to not only find their lectures as well instruct them about approximate duration time it takes between buildings, facilities, open spaces, local shops and infrastructure. The application will further notify the students when they need to start walking to their next class and best routes to take between classes. With the premium version, the application will unlock more features for the users. They will have access to transit route tips from alumni from the university and a system to keep track of their schedule and time between classes. It will also come with an ad free feature for the premium users.
+
+  </p></div>
+  <div style="width: 33%; " id="paragraphe"><button onclick="myfunction3()">WHO ARE WE?</button><p id="third_text" style="background-color: darkkhaki;">We are a group of 6 univeristy who sturggled to make it to our classes on time. We decided to do something about it. This is why we created DestinationU. We wanted all university students accross Canada to have an easy access to a virtual campus map of their choosing.
+
+  </p></div>
+</div>
+</div>
+
+
+
+
+
+
+
+    <script>
+
+    function myfunction1(){
+      document.getElementById("first_text").style.display='flex' 
+    }
+
+    function myfunction2(){
+      document.getElementById("second_text").style.display='flex' 
+    }
+
+    function myfunction3(){
+      document.getElementById("third_text").style.display='flex' 
+    }
+    </script>
   </body>
 </html>
