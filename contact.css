@@ -1,6 +1,6 @@
 
   body{
-    margin: auto;
+    margin: 0px;
   }
   
  /* nav bar*/ 
@@ -51,11 +51,10 @@
 /*section*/
 
 section{
-
-
-  background-image: url("Pictures/icon.webp");
-
+ background-image: url("Pictures/icon.webp");
+height: 100vh;
   background-attachment: fixed;
+ 
 
 }
 
