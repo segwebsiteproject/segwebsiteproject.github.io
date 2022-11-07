@@ -7,8 +7,51 @@
             background-image: url("Pictures/ILOB map-01.jpg");
             background-repeat: no-repeat;
             background-position-y: 110px;
+          
 
           }
+          .nav_bar {
+  
+  display: flex;
+  justify-content: space-between;
+  
+
+  
+  background-color: lightgray;
+  
+}
+
+
+
+
+.nav_bar a {
+
+  float: right;
+
+  color: #8B0000;
+
+  text-align: center;
+
+  font-weight: bold;
+
+  padding: 23px 26px;
+
+
+  font-size: 20px;
+
+  text-decoration: none;
+
+}
+
+.nav_bar a:hover{
+
+background-color: #8B0000;
+
+color: beige;
+transition: 0.2s;
+
+}
+
         .imgbox {
             display: grid;
             height: 100%;
@@ -44,19 +87,31 @@
   <body>
     <script src="main.js"></script>
   <body style="background-size: cover; margin: 0px; ">
-    <div class="navbar">
-      <a href="reviews.html" target="_blank">Reviews</a>
+    <header>
 
-      <a href="download.html" target="_blank">Download</a>
-
-      <a href="contact.html" target="_blank">Contact</a>
-
-      <a href="about.html" target="_blank">About</a>
-
-      <a href="shop.html" target="_blank">Shop</a>
-
-      <a href="home.html" target="_blank">Home</a>
-    </div>
+      <div class="nav_bar">
+          <div style="display: flex; background-color: brown;">
+              <img src="Pictures/address.webp" style="width: 70px; height: 70px; margin-left: 10px;" alt="" title="Project of uOttawa students"><h2>DESTINATION U</h2>
+          </div>
+          <div class="dy">
+              <a href="reviews.html" target="_blank">Reviews</a>
+              
+              
+              
+              
+              <a href="about.html" target="_blank">About</a>
+              <a href="contact.html" target="_blank">Contact</a>
+              <a href="download.html" target="_blank">Download</a>
+              <a href="shop.html" target="_blank">Shop</a>
+              <a href="home.html" target="_blank">Home</a>
+      
+      
+          </div>
+          
+  
+      </div>
+  
+   </header>
     <div class="imgbox">
 <div class="bouton" style="display: flex; justify-content: space-around; margin-top: 100px; ">
   <div style="width: 33%; " id="paragraphe"><button  onclick="myfunction1()">PARTERNSHIP</button><p id="first_text" style="background-color: aqua;">With many students being late for campus and in extreme circumstances being late for exams costing them their education, six university students came together to form the number one web-mapping platform for university students all across Canada. With partnerships from the breathtaking sceneries found at campuses in British Columbia from the bustling metropolitan area found on the campuses of University of Toronto, we introduce Destination U.</p></div>
