@@ -51,9 +51,12 @@
 /*section*/
 
 section{
- background-image: url("Pictures/icon.webp");
-height: 100vh;
+ background-image: url("Pictures/campus.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
   background-attachment: fixed;
+  height: 100vh;
  
 
 }
