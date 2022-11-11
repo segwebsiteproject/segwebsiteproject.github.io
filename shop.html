@@ -6,78 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>ShopPage</title>
+    <script src="main.js"></script>
   </head>
 
-  <body>
-    <div class="Shop">
-      <div class="navbar">
-        <a href="reviews.html" target="_blank">Reviews</a>
+  <body style="margin: 0px">
+    <header>
 
-        <a href="download.html" target="_blank">Download</a>
+<<<<<<< HEAD
+      <a href="download.html" target="_blank">Download</a>
 
-        <a href="contact.html" target="_blank">Contact</a>
+      <a href="contact.html" target="_blank">Contact</a>
 
-        <a href="about.html" target="_blank">About</a>
+      <a href="team.html" target="_blank">Team</a>
 
-        <a href="shop.html" target="_blank">Shop</a>
+      <a href="shop.html" target="_blank">Shop</a>
 
-        <a href="home.html" target="_blank">Home</a>
-      </div>
+      <a href="home.html" target="_blank">Home</a>
+    </nav>
+=======
+      <div class="nav_bar">
+          <div style="display: flex; background-color: brown;">
+              <img src="Pictures/address.webp" style="width: 70px; height: 70px; margin-left: 10px;" alt="" title="Project of uOttawa students"><h2>DESTINATION U</h2>
+          </div>
+          <div class="dy">
+              <a href="reviews.html" target="_blank">Reviews</a>
+              
+              
+              
+              
+              <a href="about.html" target="_blank">About</a>
+              <a href="contact.html" target="_blank">Contact</a>
+              <a href="download.html" target="_blank">Download</a>
+              <a href="shop.html" target="_blank">Shop</a>
+              <a href="home.html" target="_blank">Home</a>
+      
+      
+          </div>
+          </div>
+        </header>
+>>>>>>> d399e84653c5d23753fd0b1702e8fae44da5e6e3
+    <div class="Shop_body">
       <div class="Shop_Header">
         <h1>DestinationU Plans</h1>
         <h2>Pricing</h2>
-        <h3>Choose the plan that satisfies your needs</h3>
       </div>
       <div class="Version_Prices"></div>
       <div class="Shop_Row">
-        <div class="Plan">
+        <div class="Plan Plan1">
           <div class="Plan1Header">
-            <h2>DESTINATION-U FREE</h2>
+            <h2>Destination-U Free</h2>
           </div>
           <div class="Plan1Features">
             <div class="Filled_text">
-              <p>University Navigator</p>
-            </div>
-            <div class="Grey_text">
-              <p>Add Free</p>
-              <p>Schedule Coordinator</p>
-              <p>Alumni Contact</p>
-              <p>University Merchandise</p>
-              <p>Course selection Advice</p>
+              <ul>
+                <li class="Filled_text">University Navigator</li>
+                <li class="grey">Add Free</li>
+                <li class="grey">Schedule Coordinator</li>
+                <li class="grey">Alumni Contact</li>
+                <li class="grey">University Merchandise</li>
+                <li class="grey">Course selection Advice</li>
+              </ul>
             </div>
           </div>
           <div class="Plan1Prices">
-            <h1>0.00$/</h1>
-            <p>Month</p>
+            <h1><em>0.00$</em> / month</h1>
           </div>
-          <div class="Free_Button">
-            <a href="download.html" target="_blank">Try</a>
+          <div>
+            <button class="Paid_Button" onclick="myFunction()">Try</button>
           </div>
         </div>
-        <div class="Plan2">
-          <div class="Plan2Header">
-            <h2>DESTINATION-U Premium</h2>
+        <div class="Plan Plan2">
+          <div class="Plan1Header">
+            <h2>Destination-U Premium</h2>
           </div>
-          <div class="Plan2Features">
+          <div class="Plan1Features">
             <div class="Filled_text">
-              <p>University Navigator</p>
-              <p>Add Free</p>
-              <p>Schedule Coordinator</p>
-              <p>Alumni Contact</p>
-              <p>University Merchandise</p>
-              <p>Course selection Advice</p>
+              <ul>
+                <li>University Navigator</li>
+                <li>Add Free</li>
+                <li>Schedule Coordinator</li>
+                <li>Alumni Contact</li>
+                <li>University Merchandise</li>
+                <li>Course selection Advice</li>
+              </ul>
             </div>
           </div>
-          <div class="Plan2Prices">
-            <h1>7.99$/</h1>
-            <p>Month</p>
+          <div class="Plan1Prices">
+            <h1><em>7.99$</em> / month</h1>
           </div>
-          <div class="Download_link">
-            <div class="Paid_Button">
-              <a href="download.html" target="_blank">TRY</a>
-            </div>
+          <div class="PlanButton">
+            <button class="Paid_Button" id="butid" onclick="myFunction()">
+              Try
+            </button>
           </div>
         </div>
+      </div>
+      <div class="OpenApp">
+        <a href="download.html">
+          <img id="AppStore" src="" width="150" height="100" />
+        </a>
       </div>
     </div>
   </body>
