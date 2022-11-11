@@ -7,33 +7,19 @@
     <title>AboutPage</title>
   </head>
 
-  <body style="margin: 0px;">
-    <header>
+  <body>
+    <div class="About">
+      <div id="About"></div>
 
-      <div class="nav_bar">
-          <div style="display: flex; background-color: brown;">
-              <img src="Pictures/address.webp" style="width: 70px; height: 70px; margin-left: 10px;" alt="" title="Project of uOttawa students"><h2>DESTINATION U</h2>
-          </div>
-          <div class="dy">
-              <a href="reviews.html" target="_blank">Reviews</a>
-              
-              
-              
-              
-              <a href="about.html" target="_blank">About</a>
-              <a href="contact.html" target="_blank">Contact</a>
-              <a href="download.html" target="_blank">Download</a>
-              <a href="shop.html" target="_blank">Shop</a>
-              <a href="home.html" target="_blank">Home</a>
-      
-      
-          </div>
-          
-  
-      </div>
-  
-   </header>
-  
+      <div class="navbar">
+        <a href="reviews.html">Reviews</a>
+        <a href="download.html">Download</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="shop.html">Shop</a>
+        <a href="home.html">Home</a>
+
+        <div class="Nav">
           <h1>Welcome to DestinationU</h1>
           <p>Your number one stop for all your campus transportation needs</p>
         </div>
@@ -45,7 +31,8 @@
 
       <div class="AboutHeaders">
         <div class="PartHeader">
-          <h1>Partnerships</h1>
+          <button id="button" style="display:none;" class="button">WELCOME</button>
+          <input type="button" name="answer" value="Partnerships" onclick="text()"/>
         </div>
         <div class="DescHeader">
           <h1>Description</h1>
@@ -55,7 +42,8 @@
         </div>
       </div>
 
-      <div class="Descriptions">
+<!-- 
+      <div class="AboutTexts">
         <div class="Partnerships">
           <p>
             With many students being late for campus and in extreme
@@ -84,7 +72,7 @@
             feature for the premium users.
           </p>
         </div>
-        <div class="Who?">
+        <div class="Who">
           <p>
             We are a group of 6 univeristy who sturggled to make it to our
             classes on time. We decided to do something about it. This is why we
@@ -94,13 +82,15 @@
           </p>
         </div>
       </div>
+ -->
 
       <div class="ButtonC">
         <h2>
-          If you would like to contact us for more infromation please click down
-          below
+          For more information click here : 
         </h2>
-        <a href="contact.html">Contact</a>
+        <div class="button">
+          <a href="contact.html" style="text-decoration: none;" color="black;">Contact</a>
+        </div>
       </div>
     </div>
   </body>

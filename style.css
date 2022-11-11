@@ -38,7 +38,146 @@ background-color: #8B0000;
 color: beige;
 transition: 0.2s;
 
+
+  background-color: aliceblue;
+
 }
+
+/*--------------Team---------------*/
+.Team{
+  background-image: url(Pictures/campus.jpg);
+  background-position-y: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.TeamHeader{
+  margin:auto;
+  background-color: #8B0000;
+  text-align:center;
+  width:700px;
+  height:auto;
+  box-align:center;
+  font-size: 30px;
+}
+
+.team{
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  padding-top:10px;
+  background-color: grey;
+  margin-left: 1px;
+  margin-right: 2px;
+}
+
+
+/*--------------About---------------*/
+.About{
+  background-image: url(Pictures/campus.jpg);
+  margin: 0px;
+  height: 150vh;
+  background-size: cover;
+}
+
+.AboutHeader{
+  margin:auto;
+  background-color: #8B0000;
+  text-align:center;
+  width:300px;
+  height:auto;
+  box-align:center;
+  font-size: 30px;
+}
+
+.AboutHeaders{
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  padding-top:10px;
+}
+
+
+.PartHeader{
+  margin-right: 150px;
+  background-color: grey;
+}
+
+.DescHeader{
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: grey;
+}
+
+.WhoHeader{
+  margin-left: 150px;
+  background-color: grey;
+}
+
+
+/*
+.AboutTexts{
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  padding-top:0px;
+}
+
+.Partnerships{
+  margin-right:50px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 10px;
+  color:black
+}
+
+.Description{
+  margin-right:50px;
+  margin-left:20px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 10px;
+  color:black
+}
+
+.Who{
+  margin-left:100px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 10px;
+  color:black
+}
+*/
+
+.ButtonC{
+  text-align: center;
+  font-size: 15px;
+  position: bottom;
+  color:black
+}
+
+.button{
+  background-color: maroon;
+  padding: 15px 32px;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.button:hover{
+  background-color: darkgrey;
+  transition: 0.7s;
+}
+
+
+
 
 /*---------------Shop---------------*/
 .Shop_body {
