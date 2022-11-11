@@ -63,6 +63,7 @@ color: beige;
 }
 
 .TeamHeader{
+  margin:auto;
   background-color: #8B0000;
   text-align:center;
   width:700px;
