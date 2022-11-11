@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>ShopPage</title>
-    <script>
-      src = "main.js";
-    </script>
+    <script src="main.js"></script>
   </head>
 
   <body style="margin: 0px">
-    <nav class="navbar">
-      <a href="reviews.html" target="_blank">Reviews</a>
+    <header>
 
+<<<<<<< HEAD
       <a href="download.html" target="_blank">Download</a>
 
       <a href="contact.html" target="_blank">Contact</a>
@@ -25,6 +23,28 @@
 
       <a href="home.html" target="_blank">Home</a>
     </nav>
+=======
+      <div class="nav_bar">
+          <div style="display: flex; background-color: brown;">
+              <img src="Pictures/address.webp" style="width: 70px; height: 70px; margin-left: 10px;" alt="" title="Project of uOttawa students"><h2>DESTINATION U</h2>
+          </div>
+          <div class="dy">
+              <a href="reviews.html" target="_blank">Reviews</a>
+              
+              
+              
+              
+              <a href="about.html" target="_blank">About</a>
+              <a href="contact.html" target="_blank">Contact</a>
+              <a href="download.html" target="_blank">Download</a>
+              <a href="shop.html" target="_blank">Shop</a>
+              <a href="home.html" target="_blank">Home</a>
+      
+      
+          </div>
+          </div>
+        </header>
+>>>>>>> d399e84653c5d23753fd0b1702e8fae44da5e6e3
     <div class="Shop_body">
       <div class="Shop_Header">
         <h1>DestinationU Plans</h1>
@@ -52,7 +72,7 @@
             <h1><em>0.00$</em> / month</h1>
           </div>
           <div>
-            <button class="Paid_Button">Try</button>
+            <button class="Paid_Button" onclick="myFunction()">Try</button>
           </div>
         </div>
         <div class="Plan Plan2">
@@ -75,11 +95,16 @@
             <h1><em>7.99$</em> / month</h1>
           </div>
           <div class="PlanButton">
-            <button id="demo" class="Paid_Button" onclick="myFunction()">
+            <button class="Paid_Button" id="butid" onclick="myFunction()">
               Try
             </button>
           </div>
         </div>
+      </div>
+      <div class="OpenApp">
+        <a href="download.html">
+          <img id="AppStore" src="" width="150" height="100" />
+        </a>
       </div>
     </div>
   </body>
