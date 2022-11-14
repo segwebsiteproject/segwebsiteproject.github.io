@@ -9,5 +9,6 @@ function myFunction() {
   image.src ="Pictures/best.png"
 
   document.getElementById("butid")
+  
 
 } 
