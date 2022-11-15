@@ -52,12 +52,6 @@ transition: 0.2s;
 
 }
 
-            background-image: url("pictures/ILOB\ map-01.jpg");
-            background-repeat: no-repeat;
-            background-position-y: 110px;
-          
-          }
-          
         .imgbox {
             display: grid;
             height: 100%;
@@ -80,7 +74,6 @@ transition: 0.2s;
           display: none;
         }
 
-
         #paragraphe{
           margin: 0px 10px;
           display: block;
@@ -93,6 +86,7 @@ transition: 0.2s;
         }
 
 
+
     </style>
   </head>
   <body>
@@ -101,8 +95,8 @@ transition: 0.2s;
     <header>
 
       <div class="nav_bar">
-          <div style="display: flex; background-color: brown;">
-              <img src="Pictures/address.webp" style="width: 70px; height: 70px; margin-left: 10px;" alt="" title="Project of uOttawa students"><h2>DESTINATION U</h2>
+          <div style="display: flex;">
+            <img src="Pictures/logo.png" style="width: 100px; height: 70px; margin-left: 10px;" alt="" title=" logo Project of uOttawa students">
           </div>
           <div class="dy">
               <a href="reviews.html" target="_blank">Reviews</a>
@@ -110,7 +104,7 @@ transition: 0.2s;
               
               
               
-              <a href="about.html" target="_blank">About</a>
+              <a href="team.html" target="_blank">Team</a>
               <a href="contact.html" target="_blank">Contact</a>
               <a href="download.html" target="_blank">Download</a>
               <a href="shop.html" target="_blank">Shop</a>
@@ -130,28 +124,6 @@ transition: 0.2s;
 
   </p></div>
   <div style="width: 33%; " id="paragraphe"><button onclick="myfunction3()">WHO ARE WE?</button><p id="third_text" style="background-color: darkkhaki;"><strong style="font-size: 2em;">W</strong>e are a group of 6 univeristy who sturggled to make it to our classes on time. We decided to do something about it. This is why we created DestinationU. We wanted all university students accross Canada to have an easy access to a virtual campus map of their choosing.
-  <body style="background-size: cover; margin: 0px; ">
-    <div class="navbar">
-      <a href="reviews.html" target="_blank">Reviews</a>
-
-      <a href="download.html" target="_blank">Download</a>
-
-      <a href="contact.html" target="_blank">Contact</a>
-
-      <a href="about.html" target="_blank">About</a>
-
-      <a href="shop.html" target="_blank">Shop</a>
-
-      <a href="home.html" target="_blank">Home</a>
-    </div>
-    <div class="imgbox">
-<div class="bouton" style="display: flex; justify-content: space-around; margin-top: 100px; ">
-  <div><button class="e" onclick="myfunction()">PARTERNSHIP</button><p class="a">With many students being late for campus and in extreme circumstances being late for exams costing them their education, six university students came together to form the number one web-mapping platform for university students all across Canada. With partnerships from the breathtaking sceneries found at campuses in British Columbia from the bustling metropolitan area found on the campuses of University of Toronto, we introduce Destination U.</p></div>
-  <div><button class="e">DESCRIPTION</button><p class="a">DestinationU is a new application designed and geared to help navigate university students at all universities across Canada. With an interactive map throughout the campus to help incoming and current students to not only find their lectures as well instruct them about approximate duration time it takes between buildings, facilities, open spaces, local shops and infrastructure. The application will further notify the students when they need to start walking to their next class and best routes to take between classes. With the premium version, the application will unlock more features for the users. They will have access to transit route tips from alumni from the university and a system to keep track of their schedule and time between classes. It will also come with an ad free feature for the premium users.
-
-  </p></div>
-  <div><button class="e">WHO ARE WE?</button><p class="a">We are a group of 6 univeristy who sturggled to make it to our classes on time. We decided to do something about it. This is why we created DestinationU. We wanted all university students accross Canada to have an easy access to a virtual campus map of their choosing.
-
 
   </p></div>
 </div>
@@ -165,7 +137,6 @@ transition: 0.2s;
 
     <script>
 
-
     function myfunction1(){
       document.getElementById("first_text").style.display='flex' 
     }
@@ -177,16 +148,6 @@ transition: 0.2s;
     function myfunction3(){
       document.getElementById("third_text").style.display='flex' 
     }
-
-    function myfunction(){
-      document.getElementsByClassName("a").style.display = 'flex';
-    }
-
-
-      document.getElementsByClassName("e").addEventListener("click", function(){
-        document.getElementsByClassName("a").style.display = 'flex';
-      })
-
     </script>
   </body>
 </html>

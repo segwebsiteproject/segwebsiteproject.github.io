@@ -38,16 +38,12 @@ background-color: #8B0000;
 color: beige;
 transition: 0.2s;
 
-
-  background-color: aliceblue;
-
 }
 
 /*--------------Team---------------*/
 .Team{
   background-image: url(Pictures/campus.jpg);
-  background-position-y: center;
-  height: 100vh;
+border-top: #242121 solid;
   background-size: cover;
 }
 
@@ -61,16 +57,34 @@ transition: 0.2s;
   font-size: 30px;
 }
 
-.team{
+.First_Row{
   display: flex;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   padding-top:10px;
-  background-color: grey;
-  margin-left: 1px;
+
+  margin-left: 2px;
   margin-right: 2px;
+  
 }
 
+.row{
+  display: block;
+  justify-content: center;
+  margin: 10px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+.member{
+margin: 10px;
+width: 33%;
+text-align: center;
+background-color: grey;
+}
 
 /*--------------About---------------*/
 .About{
