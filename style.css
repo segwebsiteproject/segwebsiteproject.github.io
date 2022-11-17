@@ -80,6 +80,12 @@
 
   color: black;
 }
+.reviewheader {
+  padding: 20px;
+  background-color: gray;
+  text-align: center;
+  font-size: 50px;
+}
 #rectangle {
   display: table;
   width: 250px;
@@ -106,13 +112,36 @@
   vertical-align: middle;
   display: table-cell;
 }
-#allreviews {
-  display: flex;
+.allreviews {
+  display: none;
+  opacity: 0;
   justify-content: space-between;
   /* max-width: 400px; */
   margin: 0 auto;
   padding: 10px 0;
+  background: white;
+  animation: blink 3s 1 300ms;
+}
+.astext {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  font-size: 50px;
 }
 span {
   width: 300px;
 }
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* .loader-block:nth-child(1) {
+  background: red;
+  animation: blink 1.5s infinite 100ms;
+} */

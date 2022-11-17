@@ -28,8 +28,10 @@
 
       <a href="home.html">Home</a>
     </div>
-
-    <div id="allreviews">
+    <div class="reviewheader">
+        <button class = "astext" id ="toggle">Take a look at what our customers have to say!</button>
+    </div>
+    <div class="allreviews" id ="third">
       <span>
         <div id="rectangle">
           <center><img id="review_pic" src="Pictures/reviewpic1.png" />
@@ -91,7 +93,18 @@
     <!-- <div><button id="boutonreviews">click ici </button></div> -->
     <div></div>
   </body>
-
+  <script>
+    const targetDiv = document.getElementById("third");
+    const btn = document.getElementById("toggle");
+    btn.onclick = function() {
+      if (targetDiv.style.display !== "none") {
+        targetDiv.style.display = "none";
+      } else {
+        targetDiv.style.display = "flex";
+      }
+    };
+    
+  </script>
   <!-- <script>
     document.getElementById('boutonreviews').addEventListener('click', function () {
         document.getElementById("reviews").innerHTML = 'This is my reviews page😃'
