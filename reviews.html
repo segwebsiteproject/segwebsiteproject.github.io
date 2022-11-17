@@ -29,79 +29,99 @@
       <a href="home.html">Home</a>
     </div>
     <div class="reviewheader">
-        <button class = "astext" id ="toggle">Take a look at what our customers have to say!</button>
-    </div>
-    <div class="allreviews" id ="third">
-      <span>
-        <div id="rectangle">
-          <center><img id="review_pic" src="Pictures/reviewpic1.png" />
-          <img id="star" src="Pictures/goldstar.png" />
-            <p id="reviewtext">"Helped me get through my first year!!!"<b
-                ><i>~Veronica Scott</i></b
-              >
-            </p></p>
-          </center>
+        <center><button class = "astext" id ="toggle">Click here to find out what people think!</button>
         </div>
-      </span>
-      <span>
-        <div id="rectangle">
-          <center><img id="review_pic" src="Pictures/reviewpic1.png" />
-          <img id="star" src="Pictures/goldstar.png" />
-            <p id="reviewtext">"Helped me get through my first year!!!"<b
-                ><i>~Veronica Scott</i></b
-              >
-            </p></p>
-          </center>
-        </div>
-      </span>
-      <span>
-        <div id="rectangle">
-          <center><img id="review_pic" src="Pictures/reviewpic1.png" />
-          <img id="star" src="Pictures/goldstar.png" />
-            <p id="reviewtext">"Helped me get through my first year!!!"<b
-                ><i>~Veronica Scott</i></b
-              >
-            </p></p>
-          </center>
-        </div>
-      </span>
-      <span>
-        <div id="rectangle">
-          <center><img id="review_pic" src="Pictures/reviewpic1.png" />
-          <img id="star" src="Pictures/goldstar.png" />
-            <p id="reviewtext">
-              "Helped me get through my first year!!!"<b
-                ><i>~Veronica Scott</i></b
-              >
-            </p>
-          </center>
-        </div>
-      </span>
-      <span>
-        <div id="rectangle">
-          <center><img id="review_pic" src="Pictures/reviewpic1.png" />
-          <img id="star" src="Pictures/goldstar.png" />
-            <p id="reviewtext">
-              "Helped me get through my first year!!!"<b
-                ><i>~Veronica Scott</i></b
-              >
-            </p>
-          </center>
-        </div>
-      </span>
-    </div>
-    <!-- <div><button id="boutonreviews">click ici </button></div> -->
-    <div></div>
+      <div class="allreviews" id ="third">
+        <span>
+          <div id="rectangle">
+            <center><img id="review_pic" src="Pictures/reviewpic1.png" />
+            <img id="star" src="Pictures/goldstar.png" />
+              <p id="reviewtext">"Helped me get through my first year!!!"<b
+                  ><i>~Veronica Scott</i></b
+                >
+              </p></p>
+            </center>
+          </div>
+        </span>
+        <span>
+          <div id="rectangle">
+            <center><img id="review_pic" src="Pictures/reviewpic1.png" />
+            <img id="star" src="Pictures/goldstar.png" />
+              <p id="reviewtext">"Helped me get through my first year!!!"<b
+                  ><i>~Veronica Scott</i></b
+                >
+              </p></p>
+            </center>
+          </div>
+        </span>
+        <span>
+          <div id="rectangle">
+            <center><img id="review_pic" src="Pictures/reviewpic1.png" />
+            <img id="star" src="Pictures/goldstar.png" />
+              <p id="reviewtext">"Helped me get through my first year!!!"<b
+                  ><i>~Veronica Scott</i></b
+                >
+              </p></p>
+            </center>
+          </div>
+        </span>
+        <span>
+          <div id="rectangle">
+            <center><img id="review_pic" src="Pictures/reviewpic1.png" />
+            <img id="star" src="Pictures/goldstar.png" />
+              <p id="reviewtext">
+                "Helped me get through my first year!!!"<b
+                  ><i>~Veronica Scott</i></b
+                >
+              </p>
+            </center>
+          </div>
+        </span>
+        <span>
+          <div id="rectangle">
+            <center><img id="review_pic" src="Pictures/reviewpic1.png" />
+            <img id="star" src="Pictures/goldstar.png" />
+              <p id="reviewtext">
+                "Helped me get through my first year!!!"<b
+                  ><i>~Veronica Scott</i></b
+                >
+              </p>
+            </center>
+          </div>
+        </span>
+      </div>
+    </center>
   </body>
   <script>
     const targetDiv = document.getElementById("third");
     const btn = document.getElementById("toggle");
     btn.onclick = function() {
-      if (targetDiv.style.display !== "none") {
-        targetDiv.style.display = "none";
-      } else {
-        targetDiv.style.display = "flex";
-      }
+      function appearing(){
+    var increment = 0.045;
+    var opacity = 0;
+    var instance = window.setInterval(function() {
+        targetDiv.style.opacity = opacity
+        opacity = opacity + increment;
+        if(opacity > 1){
+            window.clearInterval(instance);
+        }
+    },100)
+}
+      function fading(){
+    var increment = 0.045;
+    var opacity = 1;
+    var instance = window.setInterval(function() {
+        btn.style.opacity = opacity
+        opacity = opacity - increment;
+        if(opacity < 0){
+            window.clearInterval(instance);
+            btn.style.display="none"
+        }
+    },100)
+}
+appearing();
+fading();
+      
     };
     
   </script>
