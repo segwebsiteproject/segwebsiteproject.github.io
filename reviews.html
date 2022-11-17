@@ -1,107 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <body>
+    <!-- <div class="header">
+      <h1>Welcome to DestinationU</h1>
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+      <p>Your number one stop for all your campus transportation needs</p>
+    </div> -->
 
-        .header {
+    <div class="navbar">
+      <a href="reviews.html" target="_blank">Reviews</a>
 
-            background-color: #8B0000;
+      <a href="download.html">Download</a>
 
-            padding: 24px;
+      <a href="contact.html">Contact</a>
 
-            text-align: center;
-        }
+      <a href="about.html">About</a>
 
+      <a href="shop.html">Shop</a>
 
-        .body {
-
-            overflow: hidden;
-
-            background-color: #333;
-        }
-
-
-        .body box1 {
-
-            float: right;
-
-            display: block;
-
-            color: #8B0000;
-
-            text-align: center;
-
-            padding: 22px 26px;
-
-            text-decoration: none;
-
-        }
-
-
-        .body a:hover {
-
-            background-color: #ddd;
-
-            color: black;
-
-        }
-
-        #reviews {
-            text-align: center;
-        }
-    </style>
-</head>
-
-</html>
-
-<body>
-
-    <div class="header">
-
-        <h1>Welcome to DestinationU</h1>
-
-        <p>Your number one stop for all your campus transportation needs</p>
-
+      <a href="home.html">Home</a>
     </div>
-
-    <div class="body">
-
-        <box1 href="reviews.html">Reviews</box1>
-
-        <a href="download.html">Download</a>
-
-        <a href="contact.html">Contact</a>
-
-        <a href="team.html">Team</a>
-
-        <a href="shop.html">Shop</a>
-
-        <a href="home.html">Home</a>
-
-    </div>
-    <div>
-        <p>
-        <h1 id="reviews"></h1>
-        </p>
-    </div>
-    <div><button id="boutonreviews">click ici </button></div>
-</body>
-
-<script>
+    <div class="reviewheader">
+        <center><button class = "astext" id ="toggle">Click here to find out what people think!</button>
+        </div>
+      <div class="allreviews" id ="third">
+        <span>
+          <div id="rectangle">
+            <center><img id="review_pic" src="Pictures/reviewpic1.png" />
+            <img id="star" src="Pictures/goldstar.png" />
+              <p id="reviewtext">"Helped me get through my first year!!!"<b
+                  ><i>~Veronica Scott</i></b
+                >
+              </p></p>
+            </center>
+          </div>
+        </span>
+        <span>
+          <div id="rectangle">
+            <center><img id="review_pic" src="Pictures/reviewpic2.jpeg" />
+            <img id="star" src="Pictures/goldstar.png" />
+              <p id="reviewtext">"Couldn’t have gotten my diploma without DestinationU!"<b
+                  ><i>~Troy Smith</i></b
+                >
+              </p></p>
+            </center>
+          </div>
+        </span>
+        <span>
+          <div id="rectangle">
+            <center><img id="review_pic" src="Pictures/reviewpic3.jpeg" />
+            <img id="star" src="Pictures/goldstar.png" />
+              <p id="reviewtext">"DestinationU saved me multiple times in allowing me to get to my lectures and exams on time!"<b
+                  ><i>~Michael Morey</i></b
+                >
+              </p></p>
+            </center>
+          </div>
+        </span>
+        <span>
+          <div id="rectangle">
+            <center><img id="review_pic" src="Pictures/reviewpic4.png">
+            <img id="star" src="Pictures/goldstar.png" />
+              <p id="reviewtext">
+                "If it wasn’t for DestinationU, I would never have found my classes!"<b
+                  ><i>~Charlie Orion</i></b
+                >
+              </p>
+            </center>
+          </div>
+        </span>
+        <span>
+          <div id="rectangle">
+            <center><img id="review_pic" src="Pictures/reviewpic5.jpg" />
+            <img id="star" src="Pictures/goldstar.png" />
+              <p id="reviewtext">
+                "A true life-saver! Would've dropped out if it weren't for this app."<b
+                  ><i>~Michelle Miller</i></b
+                >
+              </p>
+            </center>
+          </div>
+        </span>
+      </div>
+    </center>
+  </body>
+  <script>
+    const targetDiv = document.getElementById("third");
+    const btn = document.getElementById("toggle");
+    btn.onclick = function() {
+      function appearing(){
+    var increment = 0.045;
+    var opacity = 0;
+    var instance = window.setInterval(function() {
+        targetDiv.style.opacity = opacity
+        opacity = opacity + increment;
+        if(opacity > 1){
+            window.clearInterval(instance);
+        }
+    },100)
+}
+      function fading(){
+    var increment = 0.045;
+    var opacity = 1;
+    var instance = window.setInterval(function() {
+        btn.style.opacity = opacity
+        opacity = opacity - increment;
+        if(opacity < 0){
+            window.clearInterval(instance);
+            btn.style.display="none"
+        }
+    },50)
+}
+appearing();
+fading();
+      
+    };
+    
+  </script>
+  <!-- <script>
     document.getElementById('boutonreviews').addEventListener('click', function () {
         document.getElementById("reviews").innerHTML = 'This is my reviews page😃'
     })
 
-</script>
-
-
+</script> -->
 </html>
