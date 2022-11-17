@@ -111,6 +111,7 @@
 #reviewtext {
   vertical-align: middle;
   display: table-cell;
+  font-size: 22px;
 }
 .allreviews {
   opacity: 0;
