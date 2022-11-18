@@ -66,12 +66,12 @@ img {
   height: 200px;
 }
 
-.member{
-margin: 10px;
-width: 33%;
-text-align: center;
-background-color: grey;
-border-radius: 35px;
+.member {
+  margin: 10px;
+  width: 33%;
+  text-align: center;
+  background-color: grey;
+  border-radius: 35px;
 }
 
 /*--------------About---------------*/
@@ -260,7 +260,7 @@ border-radius: 35px;
   font-size: 10px;
 }
 
-.PlanButton {
+.PlanButtoan {
   padding-bottom: 10px;
 }
 em {
