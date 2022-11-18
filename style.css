@@ -51,7 +51,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   padding-top: 10px;
-
   margin-left: 2px;
   margin-right: 2px;
 }
@@ -67,11 +66,12 @@ img {
   height: 200px;
 }
 
-.member {
-  margin: 10px;
-  width: 33%;
-  text-align: center;
-  background-color: grey;
+.member{
+margin: 10px;
+width: 33%;
+text-align: center;
+background-color: grey;
+border-radius: 35px;
 }
 
 /*--------------About---------------*/
