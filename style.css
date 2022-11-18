@@ -62,7 +62,6 @@ border-top: #242121 solid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   padding-top:10px;
-
   margin-left: 2px;
   margin-right: 2px;
   
@@ -84,6 +83,7 @@ margin: 10px;
 width: 33%;
 text-align: center;
 background-color: grey;
+border-radius: 35px;
 }
 
 /*--------------About---------------*/
