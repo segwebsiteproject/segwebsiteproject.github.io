@@ -4,91 +4,159 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
   <title>segwebsiteproject.github.io</title>
-
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DestinationU</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body
+          {
+            background-image: url("Pictures/AERIAL-CAMPUS-282_hero.jpg");
+            background-repeat: no-repeat;
+          
+          
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+          }
+          .nav_bar {
+  
+  display: flex;
+  justify-content: space-between;
+  
 
-  <style>
-    .box {
-      box-sizing: border-box;
+  
+  background-color: lightgray;
+  
+}
+
+
+
+
+.nav_bar a {
+
+  float: right;
+
+  color: #8B0000;
+
+  text-align: center;
+
+  font-weight: bold;
+
+  padding: 23px 26px;
+
+
+  font-size: 20px;
+
+  text-decoration: none;
+
+}
+
+.nav_bar a:hover{
+
+background-color: #8B0000;
+
+color: beige;
+transition: 0.2s;
+
+}
+
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+
+        button{
+          width: 200px;
+          height: 50px;
+          background-color: black;
+          color: rgb(255, 255, 255);
+        }
+
+        p{
+          font-weight: bold;
+          display: none;
+        }
+
+        #paragraphe{
+          margin: 0px 10px;
+          display: block;
+          align-items: center;
+        }
+
+        button:hover{
+          color: #8B0000;
+          cursor: pointer;
+        }
+
+
+
+    </style>
+  </head>
+  <body>
+    <script src="main.js"></script>
+  <body style="background-size: cover; margin: 0px; ">
+    <header>
+
+      <div class="nav_bar">
+          <div style="display: flex;">
+            <img src="Pictures/logo.png" style="width: 100px; height: 70px; margin-left: 10px;" alt="" title=" logo Project of uOttawa students">
+          </div>
+          <div class="dy">
+              <a href="reviews.html" >Reviews</a>
+              
+              
+              
+              
+              <a href="team.html" >Team</a>
+              <a href="contact.html" >Contact</a>
+              <a href="download.html" >Download</a>
+              <a href="shop.html" >Shop</a>
+              <a href="home.html" >Home</a>
+      
+      
+          </div>
+          
+  
+      </div>
+  
+   </header>
+    <div class="imgbox">
+<div class="bouton" style="display: flex; justify-content: space-around; margin-top: 100px; ">
+  <div style="width: 33%; " id="paragraphe"><button  onclick="myfunction1()">PARTERNSHIP</button><p id="first_text" style="background-color: aqua;"><strong style="font-size: 2em;">W</strong>ith many students being late for campus and in extreme circumstances being late for exams costing them their education, six university students came together to form the number one web-mapping platform for university students all across Canada. With partnerships from the breathtaking sceneries found at campuses in British Columbia from the bustling metropolitan area found on the campuses of University of Toronto, we introduce Destination U.</p></div>
+  <div style="width: 34%; " id="paragraphe"><button onclick="myfunction2()">DESCRIPTION</button><p id="second_text" style="background-color: coral;"><strong style="font-size: 2em;">D</strong>estinationU is a new application designed and geared to help navigate university students at all universities across Canada. With an interactive map throughout the campus to help incoming and current students to not only find their lectures as well instruct them about approximate duration time it takes between buildings, facilities, open spaces, local shops and infrastructure. The application will further notify the students when they need to start walking to their next class and best routes to take between classes. With the premium version, the application will unlock more features for the users. They will have access to transit route tips from alumni from the university and a system to keep track of their schedule and time between classes. It will also come with an ad free feature for the premium users.
+
+  </p></div>
+  <div style="width: 33%; " id="paragraphe"><button onclick="myfunction3()">WHO ARE WE?</button><p id="third_text" style="background-color: darkkhaki;"><strong style="font-size: 2em;">W</strong>e are a group of 6 univeristy who sturggled to make it to our classes on time. We decided to do something about it. This is why we created DestinationU. We wanted all university students accross Canada to have an easy access to a virtual campus map of their choosing.
+
+  </p></div>
+</div>
+</div>
+
+
+
+
+
+
+
+    <script>
+
+    function myfunction1(){
+      document.getElementById("first_text").style.display='flex' 
     }
 
-    .header {
-
-      background-color: #8B0000;
-
-      padding: 24px;
-
-      text-align: center;
+    function myfunction2(){
+      document.getElementById("second_text").style.display='flex' 
     }
 
-
-    .body {
-
-      overflow: hidden;
-
-      background-color: #333;
+    function myfunction3(){
+      document.getElementById("third_text").style.display='flex' 
     }
-
-
-    .body a {
-
-      float: right;
-
-      display: block;
-
-      color: #8B0000;
-
-      text-align: center;
-
-      padding: 22px 26px;
-
-      text-decoration: none;
-
-    }
-
-
-    .body a:hover {
-
-      background-color: #ddd;
-
-      color: black;
-
-    }
-  </style>
-</head>
-
-<body>
-
-  <div class="header">
-
-    <h1>Welcome to DestinationU</h1>
-
-    <p>Your number one stop for all your campus transportation needs</p>
-
-  </div>
-
-  <div class="body">
-
-    <a href="reviews.html">Reviews</a>
-
-    <a href="download.html">Download</a>
-
-    <a href="contact.html">Contact</a>
-
-    <a href="team.html">Team</a>
-
-    <a href="shop.html">Shop</a>
-
-    <a href="home.html">Home</a>
-
-  </div>
-</body>
-
-</body>
-
+    </script>
+  </body>
 </html>
