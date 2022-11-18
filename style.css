@@ -1,22 +1,15 @@
-
 /*---------------NavBar---------------*/
 .nav_bar {
-  
   display: flex;
   justify-content: space-between;
-  
+
   background-color: lightgray;
-  
 }
 
-
-
-
 .nav_bar a {
-
   float: right;
 
-  color: #8B0000;
+  color: #8b0000;
 
   text-align: center;
 
@@ -24,57 +17,51 @@
 
   padding: 23px 26px;
 
-
   font-size: 20px;
 
   text-decoration: none;
-
 }
 
-.nav_bar a:hover{
+.nav_bar a:hover {
+  background-color: #8b0000;
 
-background-color: #8B0000;
-
-color: beige;
-transition: 0.2s;
-
+  color: beige;
+  transition: 0.2s;
 }
 
 /*--------------Team---------------*/
-.Team{
+.Team {
   background-image: url(Pictures/campus.jpg);
-border-top: #242121 solid;
+  border-top: #242121 solid;
   background-size: cover;
 }
 
-.TeamHeader{
-  margin:auto;
-  background-color: #8B0000;
-  text-align:center;
-  width:700px;
-  height:auto;
-  box-align:center;
+.TeamHeader {
+  margin: auto;
+  background-color: #8b0000;
+  text-align: center;
+  width: 700px;
+  height: auto;
+  box-align: center;
   font-size: 30px;
 }
 
-.First_Row{
+.First_Row {
   display: flex;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  padding-top:10px;
-
+  padding-top: 10px;
   margin-left: 2px;
   margin-right: 2px;
-  
 }
 
-.row{
+.row {
   display: block;
   justify-content: center;
   margin: 10px;
 }
 
-img{
+img {
   width: 200px;
   height: 200px;
 }
@@ -84,50 +71,49 @@ margin: 10px;
 width: 33%;
 text-align: center;
 background-color: grey;
+border-radius: 35px;
 }
 
 /*--------------About---------------*/
-.About{
+.About {
   background-image: url(Pictures/campus.jpg);
   margin: 0px;
   height: 150vh;
   background-size: cover;
 }
 
-.AboutHeader{
-  margin:auto;
-  background-color: #8B0000;
-  text-align:center;
-  width:300px;
-  height:auto;
-  box-align:center;
+.AboutHeader {
+  margin: auto;
+  background-color: #8b0000;
+  text-align: center;
+  width: 300px;
+  height: auto;
+  box-align: center;
   font-size: 30px;
 }
 
-.AboutHeaders{
+.AboutHeaders {
   display: flex;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  padding-top:10px;
+  padding-top: 10px;
 }
 
-
-.PartHeader{
+.PartHeader {
   margin-right: 150px;
   background-color: grey;
 }
 
-.DescHeader{
+.DescHeader {
   margin-left: 150px;
   margin-right: 150px;
   background-color: grey;
 }
 
-.WhoHeader{
+.WhoHeader {
   margin-left: 150px;
   background-color: grey;
 }
-
 
 /*
 .AboutTexts{
@@ -166,14 +152,14 @@ background-color: grey;
 }
 */
 
-.ButtonC{
+.ButtonC {
   text-align: center;
   font-size: 15px;
   position: bottom;
-  color:black
+  color: black;
 }
 
-.button{
+.button {
   background-color: maroon;
   padding: 15px 32px;
   margin-left: 1vw;
@@ -185,39 +171,34 @@ background-color: grey;
   text-align: center;
 }
 
-.button:hover{
+.button:hover {
   background-color: darkgrey;
   transition: 0.7s;
 }
 
-
-
-
 /*---------------Shop---------------*/
 .Shop_body {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0, 0.3)), url(Pictures/ottawa\ backround.png) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0, 0.3)),
+    url(Pictures/ottawa\ backround.png) no-repeat center center;
 
   background-size: cover;
   margin: 0px;
-
 }
 
+.Shop_Header {
+  text-align: center;
 
-.Shop_Header{
-text-align: center;
-
-justify-content: center;
-
+  justify-content: center;
 }
 
-.Shop_Row{
+.Shop_Row {
   display: flex;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
-  padding-top:0px;
+  padding-top: 0px;
 }
 
-.Paid_Button{
+.Paid_Button {
   background-color: lightgray;
   border: none;
   color: black;
@@ -229,7 +210,6 @@ justify-content: center;
   border-radius: 70px;
   margin-left: 9vw;
   margin-top: 1vw;
-  
 }
 
 .Paid_Button:hover {
@@ -237,68 +217,137 @@ justify-content: center;
   transition: 0.7s;
 }
 
-.grey{
-color: darkgray;
-font-size: 20px;
+.grey {
+  color: darkgray;
+  font-size: 20px;
 }
-.Filled_text{
+.Filled_text {
   color: black;
   font-weight: bold;
   font-size: 20px;
 }
 
-.Shop_Header{
+.Shop_Header {
   font-size: 18px;
   margin-bottom: 100px;
 }
-.Shop_Header h1{
+.Shop_Header h1 {
   margin-top: 0px;
   padding-top: 30px;
 }
-.Plan{
-  background-color: #8B0000;
+.Plan {
+  background-color: #8b0000;
   width: 350px;
   margin-right: 35px;
-  margin-left:35px;
+  margin-left: 35px;
 }
-.Plan1Header{
-  background-color: #8B0000;
+.Plan1Header {
+  background-color: #8b0000;
   color: white;
   text-align: center;
-  
 }
 
-.Plan1Features{
+.Plan1Features {
   background-color: lightgray;
   padding: 10px 0px 10px 0px;
 }
 
-.Plan1Prices{
-  background-color: #8B0000;
+.Plan1Prices {
+  background-color: #8b0000;
   color: white;
   text-align: center;
   margin-top: 2vw;
   font-size: 10px;
 }
 
-.PlanButton{
+.PlanButton {
   padding-bottom: 10px;
-} 
- em{
-  font-family: 'Times New Roman', serif;
-  font-size: 40px;
-
 }
-.Plan:hover{
+em {
+  font-family: "Times New Roman", serif;
+  font-size: 40px;
+}
+.Plan:hover {
   transform: scale(1.15);
   transition: 0.2s ease-in-out;
 }
-.OpenApp{
+.OpenApp {
   padding-top: 30px;
   padding-left: 44vw;
 }
-.Plan:hover{
+.Plan:hover {
   transform: scale(1.15);
   transition: 0.2s ease-in-out;
 }
 /*---------------Download---------------*/
+/*---------------Reviews---------------*/
+.reviewheader {
+  padding: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+#rectangle {
+  display: table;
+  width: 250px;
+  height: 400px;
+  background: white;
+  border-color: black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+}
+#review_pic {
+  vertical-align: top;
+  height: 100px;
+  width: 100px;
+  border-radius: 360px;
+  vertical-align: middle;
+  display: table-cell;
+}
+#star {
+  height: 40px;
+  vertical-align: middle;
+  display: table-cell;
+}
+#reviewtext {
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 22px;
+}
+.allreviews {
+  opacity: 0;
+  justify-content: space-between;
+  display: flex;
+  /* max-width: 400px; */
+  margin: 10px auto;
+  padding: 10px 0;
+  padding-bottom: 200px;
+}
+.astext {
+  background: white;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  font-size: 50px;
+  display: flex;
+  box-shadow: 5px 5px 10px;
+  border-radius: 10px;
+}
+span {
+  width: 300px;
+}
+.Review_body {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0, 0.3)),
+    url(Pictures/ubc.jpg) no-repeat center center;
+
+  background-size: cover;
+  margin: 0px;
+}
+.Review_Header {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.Review_Header h1 {
+  margin-top: 0px;
+  padding-top: 30px;
+}
