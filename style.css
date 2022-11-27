@@ -183,7 +183,7 @@ img {
 
   background-size: cover;
   margin: 0px;
-  height: 100vh;
+  height: 100%;
 }
 
 .Shop_Header {
@@ -343,7 +343,7 @@ span {
 
   background-size: cover;
   margin: 0px;
-  height: 100vh;
+  height: 100%;
 }
 .Review_Header {
   font-size: 25px;
